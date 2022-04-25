@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebarimagesection">
+        <div class="logo">
+            <div class="logotext"><img src='image/odin-lined.png' class="odinlogo"> The EDO Experience</div>
+        </div>
+        <div class="logofooter">Photo by Kristaps Ungurs from <a href="https://unsplash.com">unsplash</a></div>
+    </div>
+    <div class="formsection">
+        <div class="intro">
+            <p>This isn't real!... <em>Or is it?</em> There's only way to find out</p>
+            <p>Take the risk and <em>sign up,</em> or stay put and forever be questioning yourself</p>
+        </div>
+        <form action="xxx" method="post" class="form">
+            <div class="info">
+                <div class="subinfo">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firtsname" name="firstname" required>
+                </div>
+                <div class="subinfo">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                </div>
+            </div>
+            <div class="info">
+                <div info="subinfo">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="subinfo"> 
+                    <label for="tel">PHONE NUMBER</label>
+                    <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+            </div>
+            <div class="info">
+                <div class="subinfo">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="subinfo">    
+                    <label for="confirmpassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword" required>
+                </div>
+            </div>
+            <div class="info">
+                <div class="subinfo">
+                    <button type="submit">CREATE ACCOUNT</button>
+                </div>
+            </div>
+        </form>
+        <div class="outro">
+            <span>Already have an account? <a href="">Sign in!</a></span>
+        </div>
+    </div>
+</body>
+</html>
